@@ -17,10 +17,10 @@ public class GoogleSearchPage {
     @FindBy(name = "q")
     public WebElement searchBox;
 
-
     @FindBy(linkText = "About")
     public WebElement aboutLink;
 
     @FindBy(xpath = "//a[@class='Fx4vi']")
     public List<WebElement> footerLinks;
+
 }

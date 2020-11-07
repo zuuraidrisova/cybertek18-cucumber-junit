@@ -11,6 +11,15 @@ public class WikiStepDefinitions {
 
     WikipediaPage wikipediaPage = new WikipediaPage();
 
+    /*
+   TC#25: Wikipedia Search Functionality Title Verification
+1. User is on Wikipedia home page
+2. User types Steve Jobs in the wiki search box
+3. User clicks wiki search button
+4. User sees Steve Jobs is in the wiki title
+Note: Follow POM
+    */
+
     @Given("User is on the Wikipedia home page")
     public void user_is_on_the_wikipedia_home_page() {
 
@@ -33,6 +42,15 @@ public class WikiStepDefinitions {
         Assert.assertTrue(actualTitle.contains(string));
     }
 
+     /*
+    TC#26: Wikipedia Search Functionality Header Verification
+1. User is on Wikipedia home page
+2. User types Steve Jobs in the wiki search box
+3. User clicks wiki search button
+4. User sees Steve Jobs is in the main header
+Note: Follow POM
+     */
+
 
     @Then("User should see {string} in the main header")
     public void userShouldSeeInTheMainHeader(String expectedHeaderText) throws InterruptedException{
@@ -43,6 +61,14 @@ public class WikiStepDefinitions {
 
         Assert.assertTrue(actualHeaderText.equals(expectedHeaderText));
     }
+    /*
+    TC#27: Wikipedia Search Functionality Image Header Verification
+1. User is on Wikipedia home page
+2. User types Steve Jobs in the wiki search box
+3. User clicks wiki search button
+4. User sees Steve Jobs is in the image header
+Note: Follow POM
+     */
 
     @Then("User should see {string} in the image header")
     public void userShouldSeeInTheImageHeader(String expectedImageHeader) {
@@ -52,4 +78,5 @@ public class WikiStepDefinitions {
 
         Assert.assertTrue(actualImageHeader.equals(expectedImageHeader));
     }
+
 }

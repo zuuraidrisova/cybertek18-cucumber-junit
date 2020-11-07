@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class configurationReader {
+
     /*
 /1- We created properties object.
 //2- We got our path and store in String

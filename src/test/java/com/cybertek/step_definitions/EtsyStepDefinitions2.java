@@ -11,6 +11,16 @@ import org.junit.Assert;
 
 public class EtsyStepDefinitions2 {
 
+    /*
+  TC#51: Etsy Title Verification
+User is on https://www.etsy.com
+User sees title is as expected.
+
+Expected: Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
+
+Note: Follow POM
+   */
+
     @Given("User is on the etsy home page")
     public void user_is_on_the_etsy_home_page() {
 
@@ -25,6 +35,17 @@ public class EtsyStepDefinitions2 {
 
         Assert.assertEquals(actualTitle, expectedTitle);
     }
+
+    /*
+    TC#53: Etsy Search Functionality Title Verification (with parameterization)
+User is on https://www.etsy.com
+User types Wooden Spoon in the search box
+User clicks search button
+User sees Wooden Spoon is in the title
+
+Note: Follow POM
+     */
+
     EtsyPage etsyPage = new EtsyPage();
 
     @When("User searches {string} in the search box")

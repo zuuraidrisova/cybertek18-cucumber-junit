@@ -20,7 +20,6 @@ public class LoginStepDefinitions {
         System.out.println("->User should see dashboard");
     }
 
-
     @When("User logs in as student")
     public void user_logs_in_as_student() {
         System.out.println("->User logs in as student");

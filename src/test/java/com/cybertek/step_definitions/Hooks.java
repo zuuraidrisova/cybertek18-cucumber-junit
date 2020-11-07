@@ -29,6 +29,7 @@ public class Hooks {
 //        System.out.println("scenario.isFailed() = " + scenario.isFailed());
 
         //# to take a screen shot using Selenium
+
         // getScreenshotAs(): to be able to use this method we have to cast our Driver
         // to (TakesScreenshot)
 

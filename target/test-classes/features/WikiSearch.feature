@@ -8,7 +8,7 @@ Feature: Wiki Title and Search Verifications
   @wikiWIP
   Scenario: Search Functionality title verification
     When  User searches "Steve Jobs" in the wiki search page
-    Then  User should see "Sssjdak" in the wiki title
+    Then  User should see "Steve Jobs" in the wiki title
 
   @wikiWIP2
   Scenario: Search functionality header verification

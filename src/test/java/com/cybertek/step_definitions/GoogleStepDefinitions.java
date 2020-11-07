@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+
 
 import java.util.List;
 
@@ -56,7 +56,6 @@ public class GoogleStepDefinitions {
     @When("User searches {string}")
     public void userSearches(String searchValue) {
 
-
        googleSearchPage.searchBox.sendKeys(searchValue + Keys.ENTER);
 
     }
@@ -93,6 +92,8 @@ public class GoogleStepDefinitions {
 
         Assert.assertEquals(actualTitle, expectedTitle);
     }
+
+    // Verify that on the google search page footer contains 6 links
 
     @Then("User should see six links in the footer")
     public void user_should_see_six_links_in_the_footer(List<String> listOfLinks) {

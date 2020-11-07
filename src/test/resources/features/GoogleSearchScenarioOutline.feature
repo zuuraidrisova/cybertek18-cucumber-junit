@@ -12,3 +12,4 @@ Feature: Search
       | apple       | apple         |
       | kiwi        | kiwi          |
       | orange      | orange        |
+

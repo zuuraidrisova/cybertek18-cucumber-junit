@@ -81,8 +81,6 @@ Note: Follow POM
 
         etsyPage.searchBox.sendKeys(searchValue);
 
-
-
     }
 
     @Then("User sees {string} is in the title")
@@ -93,4 +91,5 @@ Note: Follow POM
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
     }
+
 }

@@ -30,7 +30,7 @@ public class SmartBearStepDefinitions {
         smartBearPage.orderLink.click();
     }
 
-    //User fills out the form as followed:
+     //User fills out the form as followed:
 
     @When("User selects FamilyAlbum from product dropdown")
     public void user_selects_family_album_from_product_dropdown() {

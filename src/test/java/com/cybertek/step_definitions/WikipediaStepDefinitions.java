@@ -86,4 +86,5 @@ Note: Follow POM
 
         Assert.assertEquals(actualImageHeader, expectedImageHeader);
     }
+
 }

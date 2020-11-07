@@ -12,4 +12,5 @@ public class DataTableStepDefinitions {
         System.out.println("fruitList.size() = " + fruitList.size());
 
     }
+
 }

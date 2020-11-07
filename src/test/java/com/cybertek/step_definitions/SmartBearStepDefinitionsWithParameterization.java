@@ -46,11 +46,13 @@ public class SmartBearStepDefinitionsWithParameterization {
 
         smartBearPage.quantity.sendKeys(Keys.BACK_SPACE + quantity);
     }
+
     @When("User enters {string} to costumer name")
     public void user_enters_to_costumer_name(String name) {
 
         smartBearPage.customerName.sendKeys(name);
     }
+
     @When("User enters {string} to street")
     public void user_enters_to_street(String street) {
 
@@ -62,21 +64,25 @@ public class SmartBearStepDefinitionsWithParameterization {
 
         smartBearPage.city.sendKeys(city);
     }
+
     @When("User enters {string} to state")
     public void user_enters_to_state(String state) {
 
         smartBearPage.state.sendKeys(state);
     }
+
     @When("User should enter {string}")
     public void user_should_enter(String zip) {
 
         smartBearPage.zip.sendKeys(zip);
     }
+
     @When("User selects Visa as card")
     public void user_selects_visa_as_card() {
 
         smartBearPage.visaType.click();
     }
+
     @When("User enters {string} card number")
     public void user_enters_card_number(String cardNumber) {
 
@@ -88,11 +94,13 @@ public class SmartBearStepDefinitionsWithParameterization {
 
         smartBearPage.expireDate.sendKeys(expireDate);
     }
+
     @When("User clicks process Button")
     public void user_clicks_process_button() {
 
         smartBearPage.processButton.click();
     }
+
     @Then("User verifies {string} is in the list")
     public void user_verifies_is_in_the_list(String name) {
 

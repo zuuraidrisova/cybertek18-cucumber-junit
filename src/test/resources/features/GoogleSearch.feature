@@ -34,6 +34,7 @@ Feature: Search
       | Terms            |
       | Settings         |
 
+
     # command + D will auto-generate repeated steps
     # command + option + L will give pipes space
 

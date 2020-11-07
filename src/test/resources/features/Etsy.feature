@@ -2,7 +2,7 @@ Feature: Etsy Title Verification
   Agile Story: Agile Story: As a user, I should be able to search when I am on Etsy search page.
 
   Background: User should be on Etsy search page
-    Given User is on etsy page
+     Given User is on etsy page
 
   @etsy
   Scenario: Etsy Title Verification

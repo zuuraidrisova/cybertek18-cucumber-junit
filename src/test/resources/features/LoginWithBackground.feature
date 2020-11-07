@@ -4,6 +4,7 @@ Feature: Login
   to different accounts. And dashboard should be displayed.
 
 #this is how you comment in feature file
+
   #Before annotation runs here
   Background: Back story is that use is on the login page
     Given User is on the login page

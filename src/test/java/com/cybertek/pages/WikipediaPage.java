@@ -25,5 +25,4 @@ public class WikipediaPage {
     public WebElement imageHeader;
 
 
-
 }
