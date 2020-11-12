@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6094f9f3-70ad-49a0-ae1b-cc912e096e5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cars.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states.txt" beforeDir="false" afterPath="$PROJECT_DIR$/states.txt" afterDir="false" />
-    </list>
+    <list default="true" id="6094f9f3-70ad-49a0-ae1b-cc912e096e5b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,12 +122,20 @@
       <option name="project" value="LOCAL" />
       <updated>1605211213371</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/zuuraidrisova/cybertek18-cucumber-junit&#10;&#10;# Conflicts:&#10;#&#9;cars.txt&#10;#&#9;states.txt">
+      <created>1605211950702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605211950702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cucumber Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber Junit" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/zuuraidrisova/cybertek18-cucumber-junit&#10;&#10;# Conflicts:&#10;#&#9;cars.txt&#10;#&#9;states.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/zuuraidrisova/cybertek18-cucumber-junit&#10;&#10;# Conflicts:&#10;#&#9;cars.txt&#10;#&#9;states.txt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="218" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604600749629">
@@ -141,14 +146,14 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="131" y="23" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1605211950626" />
-    <state x="145" y="88" key="MergeDialog" timestamp="1605211905825">
+    <state x="145" y="88" key="MergeDialog" timestamp="1605212171006">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="145" y="88" key="MergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605211905825" />
-    <state x="366" y="86" key="MultipleFileMergeDialog" timestamp="1605211905875">
+    <state x="145" y="88" key="MergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605212171006" />
+    <state x="366" y="86" key="MultipleFileMergeDialog" timestamp="1605212171048">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="366" y="86" key="MultipleFileMergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605211905875" />
+    <state x="366" y="86" key="MultipleFileMergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605212171048" />
     <state x="474" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605211200484">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
