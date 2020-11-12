@@ -7,13 +7,13 @@ Feature: Wikipedia Title Verification
   Background:  User should be on Wikipedia home page
     Given User is on Wikipedia home page
 
-    @tc25
+  @tc25
   Scenario: Wikipedia Search Functionality Title Verification
     When User types Steve Jobs in the wiki search box
     And  User clicks wiki search button
     Then User sees Steve Jobs is in the wiki title
 
-    @tc26
+  @tc26
   Scenario: Wikipedia Search Functionality Title Verification
      When User types Steve Jobs in the wiki search box
      And  User clicks wiki search button

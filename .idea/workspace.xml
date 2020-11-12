@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6094f9f3-70ad-49a0-ae1b-cc912e096e5b" name="Default Changelist" comment="" />
+    <list default="true" id="6094f9f3-70ad-49a0-ae1b-cc912e096e5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager" selected="JUnit.GoogleTest.setup">
     <configuration name="LoginStepDefinitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.step_definitions.LoginStepDefinitions" />
       <module name="cybertek18-cucumber-junit" />
@@ -89,8 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleTest.setup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cybertek18-cucumber-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.step_definitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.step_definitions.GoogleTest" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoogleTest.setup" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="Application.LoginStepDefinitions" />
@@ -146,14 +165,14 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="131" y="23" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1605211950626" />
-    <state x="145" y="88" key="MergeDialog" timestamp="1605212171006">
+    <state x="145" y="88" key="MergeDialog" timestamp="1605212426555">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="145" y="88" key="MergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605212171006" />
-    <state x="366" y="86" key="MultipleFileMergeDialog" timestamp="1605212171048">
+    <state x="145" y="88" key="MergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605212426555" />
+    <state x="366" y="86" key="MultipleFileMergeDialog" timestamp="1605212426607">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="366" y="86" key="MultipleFileMergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605212171048" />
+    <state x="366" y="86" key="MultipleFileMergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605212426607" />
     <state x="474" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605211200484">
       <screen x="0" y="23" width="1440" height="827" />
     </state>

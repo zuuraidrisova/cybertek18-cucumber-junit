@@ -9,8 +9,7 @@ Feature: Etsy Search feature
   Scenario: Title verification
     Then   User should see title is as expected
 
-    #expected is this:  Etsy - Shop for handmade, vintage, custom, and unique gifts for
-    #everyone
+    #expected:  Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
   @etsyWIP2
   Scenario: Title Verification after search term
     When  User searches "Wooden spoon" in the search box
