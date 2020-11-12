@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6094f9f3-70ad-49a0-ae1b-cc912e096e5b" name="Default Changelist" comment="" />
+    <list default="true" id="6094f9f3-70ad-49a0-ae1b-cc912e096e5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cars.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.txt" beforeDir="false" afterPath="$PROJECT_DIR$/states.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,6 +141,14 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="236" y="23" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1605211213287" />
+    <state x="145" y="88" key="MergeDialog" timestamp="1605211905825">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="145" y="88" key="MergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605211905825" />
+    <state x="366" y="86" key="MultipleFileMergeDialog" timestamp="1605211905875">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="366" y="86" key="MultipleFileMergeDialog/0.23.1440.827@0.23.1440.827" timestamp="1605211905875" />
     <state x="474" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605211200484">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
