@@ -36,6 +36,7 @@ Note: Follow POM
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    
     /*
     TC#53: Etsy Search Functionality Title Verification (with parameterization)
 User is on https://www.etsy.com
@@ -45,6 +46,7 @@ User sees Wooden Spoon is in the title
 
 Note: Follow POM
      */
+    
 
     EtsyPage etsyPage = new EtsyPage();
 
@@ -67,4 +69,6 @@ Note: Follow POM
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
     }
+    
+    
 }
