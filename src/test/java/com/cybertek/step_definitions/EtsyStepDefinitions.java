@@ -16,7 +16,6 @@ User is on https://www.etsy.com
 User sees title is as expected.
 
 Expected: Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
-
 Note: Follow POM
      */
     @Given("User is on etsy page")
