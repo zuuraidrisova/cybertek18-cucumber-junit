@@ -5,6 +5,12 @@ North Carolina
 California
 Texas
 Virginia
+<<<<<<< HEAD
 Pennsylvania
 Michigan
+=======
+Idaho
+Washington
+
+>>>>>>> d913bb5d638f3f2103c1ab59bb2c8a6fab3cfabe
 
