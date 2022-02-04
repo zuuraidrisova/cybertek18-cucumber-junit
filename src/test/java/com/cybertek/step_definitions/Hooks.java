@@ -12,12 +12,14 @@ public class Hooks {
     public void setUpScenario(){
 
         //System.out.println("----> Before annotation: Setting up browser");
+
     }
 
     @Before(value = "@db", order = 1)
     public void setUpDataBaseConnection(){
 
         //System.out.println("----> Before annotation: DB CONNECTION CREATED <----");
+
     }
 
     @After(order = 1)
@@ -48,19 +50,21 @@ public class Hooks {
     public void tearDownDataBaseConnection(){
 
        // System.out.println("----> After annotation: DB CONNECTION CLOSED <----");
-    }
 
+    }
 
     @BeforeStep
     public void setUpStep(){
 
         //System.out.println("====> BEFORESTEP: TAKING SCREENSHOT <====");
+
     }
 
     @AfterStep
     public void tearDownStep(){
 
        // System.out.println("====> AFTERSTEP: TAKING SCREENSHOT <====");
+
     }
 
 }

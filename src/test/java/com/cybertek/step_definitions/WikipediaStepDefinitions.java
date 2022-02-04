@@ -31,20 +31,26 @@ Note: Follow POM
     public void user_types_steve_jobs_in_the_wiki_search_box() {
 
         wikipediaPage.searchInput.sendKeys("Steve Jobs");
+
     }
+
     @When("User clicks wiki search button")
     public void user_clicks_wiki_search_button() {
 
         wikipediaPage.searchButton.click();
+
     }
+
     @Then("User sees Steve Jobs is in the wiki title")
     public void user_sees_steve_jobs_is_in_the_wiki_title() {
 
         String expectedInTitle = "Steve Jobs";
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
 
+        Driver.closeDriver();
     }
 
     /*
@@ -62,9 +68,12 @@ Note: Follow POM
        Assert.assertTrue(wikipediaPage.mainHeader.isDisplayed());
 
        String expectedHeader = "Steve Jobs";
+
        String actualHeader = wikipediaPage.mainHeader.getText();
 
        Assert.assertEquals(actualHeader, expectedHeader);
+
+       Driver.closeDriver();
     }
 
     /*
@@ -82,9 +91,14 @@ Note: Follow POM
         Assert.assertTrue(wikipediaPage.imageHeader.isDisplayed());
 
         String expectedImageHeader = "Steve Jobs";
+
         String actualImageHeader = wikipediaPage.imageHeader.getText();
 
         Assert.assertEquals(actualImageHeader, expectedImageHeader);
+
+
+        Driver.closeDriver();
     }
+
 
 }

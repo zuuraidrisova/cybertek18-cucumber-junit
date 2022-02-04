@@ -113,6 +113,8 @@ public class SmartBearStepDefinitionsWithParameterization {
        Assert.assertEquals(actualName, name);
 
         System.out.println("Verifications passed!");
+
+        Driver.closeDriver();
     }
 
 

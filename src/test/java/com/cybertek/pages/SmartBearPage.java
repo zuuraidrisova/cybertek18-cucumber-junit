@@ -68,5 +68,4 @@ public class SmartBearPage {
     public WebElement johnWick;
 
 
-
 }

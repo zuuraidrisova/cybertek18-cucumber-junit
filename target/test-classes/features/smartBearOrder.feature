@@ -1,3 +1,4 @@
+@smart
 Feature: SmartBear order process
   Agile Story: As a user, I should be able to log into SmartBear and enter all order information and verify.
 
@@ -17,6 +18,8 @@ Feature: SmartBear order process
     And   User enters "12/22" to expiration date
     And   User clicks process button
     Then  User verifies John Wick is in the list
+
+
 
   @smartBearWithParameterization
   Scenario: SmartBear order process

@@ -12,6 +12,7 @@ public class GoogleSearchPage {
     public GoogleSearchPage(){
 
         PageFactory.initElements(Driver.getDriver(), this);
+
     }
 
     @FindBy(name = "q")
@@ -22,5 +23,6 @@ public class GoogleSearchPage {
 
     @FindBy(xpath = "//a[@class='Fx4vi']")
     public List<WebElement> footerLinks;
+
 
 }

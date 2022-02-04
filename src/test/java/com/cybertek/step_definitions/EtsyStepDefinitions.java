@@ -14,10 +14,10 @@ public class EtsyStepDefinitions {
     TC#51: Etsy Title Verification
 User is on https://www.etsy.com
 User sees title is as expected.
-
 Expected: Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
 Note: Follow POM
      */
+
     @Given("User is on etsy page")
     public void user_is_on_etsy_page() {
 
@@ -28,17 +28,19 @@ Note: Follow POM
     public void user_sees_title_is_as_expected() {
 
         String expectedTitle = "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone";
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertEquals(actualTitle, expectedTitle);
     }
+
+
         /*
     TC#52: Etsy Search Functionality Title Verification (without parameterization)
 User is on https://www.etsy.com
 User types Wooden Spoon in the search box
 User clicks search button
 User sees Wooden Spoon is in the title
-
 Note: Follow POM
      */
         EtsyPage etsyPage = new EtsyPage();
@@ -60,10 +62,12 @@ Note: Follow POM
     public void userSeesWoodenSpoonIsInTheTitle() {
 
         String expectedInTitle = "Wooden spoon";
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
     }
+
 
     /*
     TC#53: Etsy Search Functionality Title Verification (with parameterization)
@@ -71,7 +75,6 @@ User is on https://www.etsy.com
 User types Wooden Spoon in the search box
 User clicks search button
 User sees Wooden Spoon is in the title
-
 Note: Follow POM
      */
 
@@ -86,9 +89,12 @@ Note: Follow POM
     public void userSeesIsInTheTitle(String searchValue) {
 
         String expectedInTitle = searchValue;
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
+
+        Driver.closeDriver();
     }
 
 }

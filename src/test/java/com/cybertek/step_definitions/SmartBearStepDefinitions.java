@@ -118,6 +118,7 @@ public class SmartBearStepDefinitions {
 
         System.out.println("Verifications Passed!");
 
+        Driver.closeDriver();
 
     }
 

@@ -1,3 +1,4 @@
+@etsy1
 Feature: Etsy Title Verification
   Agile Story: Agile Story: As a user, I should be able to search when I am on Etsy search page.
 

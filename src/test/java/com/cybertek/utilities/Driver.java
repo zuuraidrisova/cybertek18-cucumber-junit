@@ -24,6 +24,7 @@ public class Driver {
 
     }
 
+
     private static WebDriver driver;
 
 
@@ -72,6 +73,7 @@ public class Driver {
                     } catch (MalformedURLException e) {
 
                         e.printStackTrace();
+
                     }
                     break;
                 /*
@@ -105,8 +107,11 @@ public class Driver {
         if(driver != null){//if there is any browser assigned
 
             driver.quit();//then close it
+
             driver = null;//and assign it to its initial default value
+
         }
+
     }
 
 

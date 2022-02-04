@@ -15,9 +15,7 @@ public class EtsyStepDefinitions2 {
   TC#51: Etsy Title Verification
 User is on https://www.etsy.com
 User sees title is as expected.
-
 Expected: Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone
-
 Note: Follow POM
    */
 
@@ -25,15 +23,19 @@ Note: Follow POM
     public void user_is_on_the_etsy_home_page() {
 
         Driver.getDriver().get("https://www.etsy.com");
+
     }
 
     @Then("User should see title is as expected")
     public void user_should_see_title_is_as_expected() {
 
         String actualTitle = Driver.getDriver().getTitle();
+
         String expectedTitle = "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone";
 
         Assert.assertEquals(actualTitle, expectedTitle);
+
+        Driver.closeDriver();
     }
 
     
@@ -43,7 +45,6 @@ User is on https://www.etsy.com
 User types Wooden Spoon in the search box
 User clicks search button
 User sees Wooden Spoon is in the title
-
 Note: Follow POM
      */
     
@@ -68,6 +69,8 @@ Note: Follow POM
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
+
+        Driver.closeDriver();
     }
     
     

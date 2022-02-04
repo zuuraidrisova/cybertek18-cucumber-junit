@@ -7,7 +7,6 @@ Feature: Search
   Scenario: Google default title verification
     Then  User should see title is Google
 
-
   Scenario: Google title verification after search
     When  User searches apple
     Then  User should see apple in the title
@@ -37,5 +36,6 @@ Feature: Search
 
     # command + D will auto-generate repeated steps
     # command + option + L will give pipes space
+
 
 

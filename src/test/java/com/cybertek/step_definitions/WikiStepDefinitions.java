@@ -9,6 +9,7 @@ import org.junit.Assert;
 
 public class WikiStepDefinitions {
 
+
     WikipediaPage wikipediaPage = new WikipediaPage();
 
     /*
@@ -26,20 +27,26 @@ Note: Follow POM
         Driver.getDriver().get("https://www.wikipedia.org");
 
         Driver.getDriver().manage().window().maximize();
+
     }
 
     @When("User searches {string} in the wiki search page")
     public void user_searches_in_the_wiki_search_page(String string) {
 
         wikipediaPage.searchInput.sendKeys(string);
+
         wikipediaPage.searchButton.click();
+
+
     }
+
     @Then("User should see {string} in the wiki title")
     public void user_should_see_in_the_wiki_title(String string) {
 
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.contains(string));
+
     }
 
      /*
@@ -51,7 +58,6 @@ Note: Follow POM
 Note: Follow POM
      */
 
-
     @Then("User should see {string} in the main header")
     public void userShouldSeeInTheMainHeader(String expectedHeaderText) throws InterruptedException{
 
@@ -60,7 +66,9 @@ Note: Follow POM
         Thread.sleep(2000);
 
         Assert.assertTrue(actualHeaderText.equals(expectedHeaderText));
+
     }
+
     /*
     TC#27: Wikipedia Search Functionality Image Header Verification
 1. User is on Wikipedia home page
@@ -75,8 +83,10 @@ Note: Follow POM
 
         String actualImageHeader = wikipediaPage.imageHeader.getText();
 
-
         Assert.assertTrue(actualImageHeader.equals(expectedImageHeader));
+
+        Driver.closeDriver();
+
     }
 
 }

@@ -10,6 +10,7 @@ public class WikipediaPage {
     public WikipediaPage(){
 
         PageFactory.initElements(Driver.getDriver(), this);
+
     }
 
     @FindBy(xpath = "//input[@id='searchInput']")

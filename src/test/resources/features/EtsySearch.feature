@@ -1,3 +1,4 @@
+@etsy
 Feature: Etsy Search feature
   Agile Story: User should be able to enter search terms and see relevant
   results in the page and in the title.

@@ -27,6 +27,8 @@ public class LoginStepDefinitions {
 
     @When("User logs in as admin")
     public void user_logs_in_as_admin() {
+
         System.out.println("->User logs in as admin");
     }
+
 }

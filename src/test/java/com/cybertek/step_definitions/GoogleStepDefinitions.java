@@ -25,6 +25,7 @@ public class GoogleStepDefinitions {
     public void user_should_see_title_is_google() {
 
         String actualTitle = Driver.getDriver().getTitle();
+
         String expectedTitle = "Google";
 
         Assert.assertTrue(expectedTitle.equals(actualTitle));
@@ -32,6 +33,7 @@ public class GoogleStepDefinitions {
         Assert.assertEquals(actualTitle, expectedTitle);
 
         System.out.println("Google Title Verification passed!");
+
     }
 
     GoogleSearchPage googleSearchPage = new GoogleSearchPage();
@@ -47,10 +49,12 @@ public class GoogleStepDefinitions {
     public void userShouldSeeAppleInTheTitle() {
 
         String expectedInTitle = "apple";
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.contains(expectedInTitle));
 
+        Driver.closeDriver();
     }
 
     @When("User searches {string}")
@@ -64,10 +68,14 @@ public class GoogleStepDefinitions {
     public void userShouldSeeInTheTitle(String searchValue) {
 
         String expectedInTitle = searchValue + " - Google Search";
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertTrue(actualTitle.equals(expectedInTitle));
+
+        Driver.closeDriver();
     }
+
 
     @Then("User should see About link")
     public void userShouldSeeAboutLink() {
@@ -88,9 +96,12 @@ public class GoogleStepDefinitions {
     public void userShouldSeeTitleGoogleAboutGoogleOurCultureCompanyNews() {
 
         String expectedTitle = "Google - About Google, Our Culture & Company News";
+
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertEquals(actualTitle, expectedTitle);
+
+        Driver.closeDriver();
     }
 
     // Verify that on the google search page footer contains 6 links
@@ -99,9 +110,11 @@ public class GoogleStepDefinitions {
     public void user_should_see_six_links_in_the_footer(List<String> listOfLinks) {
 
         int expectedSize = listOfLinks.size();
+
         int actualSize = googleSearchPage.footerLinks.size();
 
         Assert.assertEquals(actualSize, expectedSize);
+
     }
 
 }
